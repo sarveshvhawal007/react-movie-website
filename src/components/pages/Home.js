@@ -1,0 +1,15 @@
+import '../../css/App.css'
+import '../../css/HeroSection.css'
+import HeroSection from "../HeroSection";
+import Cards from "../Cards";
+
+function Home() {
+    return (
+        <>
+            {/*<HeroSection/>*/}
+            <Cards/>
+        </>
+    )
+}
+
+export default Home;
